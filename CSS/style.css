@@ -1,0 +1,23 @@
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+div{
+  border: 2px solid green;
+}
+
+form {
+  border: 2px solid red;
+}
+
+input {
+  display: block;
+  margin: 20px 10px;
+}
+
+.flex-container {
+  display: flex;
+  height: 100%;
+}
