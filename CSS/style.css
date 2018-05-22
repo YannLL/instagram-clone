@@ -2,14 +2,9 @@ body {
   background: #fafafa;
   margin: 0;
   font-family: sans-serif;
-}
-
-div{
-  border: 2px solid green;
-}
-
-form {
-  border: 2px solid red;
+  display: run-in;
+  justify-content: center;
+   align-items: center;
 }
 
 input {
@@ -17,7 +12,186 @@ input {
   margin: 20px 10px;
 }
 
+nav{
+  text-align: center;
+  color: #6B6B6B;
+  font-weight: 600;
+}
+
+.apart {
+  margin-left: 1%;
+  color:#9A9A9A;
+}
+
 .flex-container {
   display: flex;
-  height: 100%;
+  width: 70%;
+  height: 40%;
+  flex-direction: row;
+  /*box-sizing: border-box;*/
+  /*border: 2px solid green;*/
+  /*vertical-align: baseline;*/
+  margin-top: 1%;
+  margin-left: 15%;
 }
+
+.blue-button{
+background: dodgerblue;
+border-radius: 3px;
+text-align: center;
+border: none;
+height:5%;
+color: white;
+font-size: 90%;
+font-weight: 600;
+width: 80%;
+}
+
+.left-pane{
+  /*border: 3px solid yellow;*/
+  margin-top: 5%;
+  margin-right: 5%;
+  /*height: 650px;*/
+  width: 40%;
+}
+
+.slide1{
+  position: absolute;
+  bottom: 36%;
+  right: 15%;
+
+}
+
+.slide2{
+  z-index: 99;
+  position: absolute;
+  bottom: 36%;
+  right: 15%;
+  opacity: 0;
+  animation: fadeout 7s infinite;
+}
+.slideshow{
+  background-repeat: repeat;
+  height: 69%;
+  width: 20%;
+  position: absolute;
+  bottom: 6%;
+  left: 25%;
+    /*animation: anims 2s infinite;*/
+}
+
+/* .slideshow>img {
+  margin-left: 5%;
+ animation: anims 2s infinite;
+} */
+
+/*.slideshow>img{
+  content: url("slide1.jpg");
+}*/
+
+@keyframes fadeout {
+  0% {
+          opacity: 1;
+          /*background: red;*/
+          /*background-image: url('slide1.jpg');*/
+        }
+  10% {
+      opacity: 0.5:;
+      }
+
+  100% {
+        opacity: 0:;
+      }
+}
+
+.right-pane {
+  background: white;
+  border: 1px solid #e6e6e6;
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
+  padding-top: 5%;
+  position: flex;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+
+.phones{
+  /*margin-left: 1%;*/
+}
+
+.signup {
+  /*border: 2px solid purple;*/
+  background: white;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  justify-content: center;
+  height: 50%;
+}
+
+.signup>input{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 2% 10%;
+  height: 8%;
+  width: 80%;
+}
+
+.signup p{
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-content: center;*/
+/*height: 100%;*/
+width: 100%;
+color: #707070;
+text-align: center;
+}
+
+input[type=text], [type=password]{
+  background-color: #e6e6e6;
+  border: 1px solid #ddd;
+}
+
+.footer{
+  display: inline;
+  border: 1px solid aqua;
+}
+
+.footer>div>nav{
+  word-spacing: 8px;
+}
+ .container{
+  width: 100%;
+ }
+
+ .or {
+  margin-bottom: -5%;
+ }
+
+ .overlap{
+  display: flex;
+  flex-flow: row-reverse;
+  z-index: 12;
+  /*padding-top:-55%;*/
+  position: relative;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+ }
+
+ .overlap>div{
+  color: #8E8E8E;
+  font-weight: 600;
+ }
+
+ .gplay{
+  width: 15%;
+ }
+
+ .appstore{
+  width: 15%;
+ }

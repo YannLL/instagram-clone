@@ -4,23 +4,68 @@
     <meta charset="utf-8">
     <title>Yannstagram</title>
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <div class="left-pane">
-      <img src="slide1.jpg">
-    <div>
-    <div class="flex-container">
-      <h3>Instagram</h3>
-      <button class="blue-button">Log In with Facebook</button>
-      <p>OR</p>
-      <form class="signup">
-        <input type="text" placeholder="Mobile Number or Email">
-        <input type="text" placeholder="Full Name">
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
-        <input type="submit" value="Sign Up" class="blue-button">
-      </form>
-      <p>By signing up, you agree to our <span>Terms & Privacy Policy.</span>
-    </div>
+    <main class="flex-container">
+      <div class="left-pane">
+        <img class="phones" src="phones.png">
+          <div class="slideshow">
+            <img class="slide1" src="slide1.jpg">
+            <img class="slide2" src="slide2.jpg">
+
+          </div>
+      </div>
+      <div class="right-pane">
+        <img src="yannstagram.png">
+        <button class="blue-button"><i class="fab fa-facebook-square"></i> Log In with Facebook</button>
+        <p class="or">OR</p>
+        <form class="signup">
+          <input type="text" placeholder="Mobile Number or Email">
+          <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Username">
+          <input type="password" placeholder="Password">
+          <input type="submit" value="Sign Up" class="blue-button">
+          <p>By signing up, you agree to our <span>Terms & Privacy Policy.</span>
+        </form>
+      </div>
+
+    </main>
+      <br/>
+    <footer class="footer">
+      <section class="overlap">
+        <div>
+          Get the app.
+            <p>
+              <img class="gplay" src="gplay.png">
+              <img class="appstore" src="appstore.png">
+            </p>
+        </div>
+      </section>
+
+      <div>
+        <nav>
+          <a>ABOUT US</a>
+          <a>SUPPORT</a>
+          <a>BLOG</a>
+          <a>PRESS</a>
+          <a>API</a>
+          <a>JOBS</a>
+          <a>PRIVACY</a>
+          <a>TERMS</a>
+          <a>DIRECTORY</a>
+          <a>PROFILES</a>
+          <a>HASHTAGS</a>
+          <a>LANGUAGE</a>
+          <a class="apart">&copy;2018 Instagram</a>
+        </nav>
+      </div>
+      <br>
+
+      <!-- <div class="footer">
+        ABOUT US SUPPORT BLOG PRESS API JOBS PRIVACY TERMS DIRECTORY PROFILES HASHTAGS LANGUAGE
+        © 2018 INSTAGRAM
+      </div> -->
+    </footer>
   </body>
 </html>

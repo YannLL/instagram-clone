@@ -1,0 +1,9 @@
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container{
+	display: flex;
+}
